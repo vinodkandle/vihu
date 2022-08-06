@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Suite">
+<listners>
+  <listner name="Itestlistner" />
+  <listner name="annotationTranformerlistner" />
+</listners>
+  <test name="Test">
+    <classes>
+      <class name="testNgProgram.ItestListenerWithExample"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
